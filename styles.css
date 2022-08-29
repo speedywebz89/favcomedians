@@ -1,0 +1,94 @@
+h1 {
+  font-size: 4rem;
+  color: #0e1111;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #e0d2d9;
+}
+h4{
+  font-size: 1rem;
+  color: #0e1111;
+  font-family: "Arvo", cursive;
+}
+ol{
+  list-style: none;
+  font-family: "Arvo", cursive;
+  line-height: 1.8;
+}
+footer {
+  color: #070808;
+  font-family: sans-serif;
+}
+.volume{
+  font-style:italic;
+  color:white;
+  text-decoration:underline;
+  
+}
+.smallertxt{
+  font-size: .8rem;
+  color: #0e1111;
+  font-family: "Arvo", cursive;
+}
+.farley {
+  background-image: url(./images/farley.jpg);
+  background-size:cover;
+}
+.eddie {
+ background-image: url(./images/murphy.jpg);
+ background-size:cover;
+}
+.george {
+  background-image: url(./images/carlin.jpg);
+  background-size:cover;
+}
+.will {
+  background-image: url(./images/will.jpg);
+  background-size:cover;
+}
+.katt {
+  background-image: url(./images/kat.jpg);
+  background-size:cover;
+}
+.dave {
+  background-image: url(./images/dave.jpg);
+  background-size:cover;
+}
+.robin {
+  background-image: url(./images/robin.jpg);
+  background-size:cover;
+}
+.set {
+  margin: 10% auto;
+}
+.game-over {
+  background-color: rgb(213, 15, 15);
+  opacity: 0.8;
+}
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+.red {
+  color: rgb(227, 16, 16);
+}
+.quotes {
+  outline: none;
+  border: 2px solid #040404;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 300;
+  font-size:.02rem;
+  font-display:inherit;
+  color: #f3eeee;
+  
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  background-color: white;
+}
+button:hover{
+  transform:rotate(4deg);
+  cursor:grab;
+}
